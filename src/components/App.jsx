@@ -47,7 +47,6 @@ export class App extends Component {
     this.setState(prev => ({ page: prev.page + 1 }));
   };
   onImageClick = dataModal => {
-    console.log(dataModal);
     this.setState({ showModal: true, dataModal });
   };
   onModalClose = () => {

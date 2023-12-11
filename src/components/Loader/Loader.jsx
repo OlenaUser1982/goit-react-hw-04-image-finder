@@ -8,7 +8,6 @@ const Loader = () => {
       color="green"
       ariaLabel="loading"
       wrapperStyle
-      //   wrapperClass
     />
   );
 };

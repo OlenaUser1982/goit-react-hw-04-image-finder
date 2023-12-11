@@ -9,12 +9,9 @@ const customStyles = {
     transform: 'translate(-50%, -50%)',
   },
 };
-// function closeModal() {
-//   setIsOpen(false);
-// }
+
 Modal.setAppElement('#root');
 const ModalImage = ({ src, alt, onClose, showModal }) => {
-  console.log(showModal);
   return (
     <Modal
       isOpen={showModal}
