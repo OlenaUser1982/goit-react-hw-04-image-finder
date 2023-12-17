@@ -84,5 +84,3 @@ const App = () => {
 };
 
 export default App;
-
-// ключ 40356079-0981781b33afe77096f29ce70
